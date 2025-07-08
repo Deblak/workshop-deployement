@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS t_projects;
+
+CREATE TABLE t_projects(
+	id INT GENERATED ALWAYS AS IDENTITY,
+	name VARCHAR(25),
+	CONSTRAINT t_projects_pkey PRIMARY KEY (id)
+);
